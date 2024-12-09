@@ -50,7 +50,7 @@ function App() {
       
       </section>
 
-        <section className='w-full h-screen  max-sm:w-full background-3 p-10 max-sm:p-4 overflow-hidden relative'>
+        <section className='w-full h-screen  max-sm:w-full background-3 p-10 max-sm:p-0 overflow-hidden relative'>
           <div className='w-1/2 h-[90%] border absolute left-11 top-9 rounded-2xl max-md:hidden'>
 
           </div>
