@@ -82,6 +82,7 @@ color: transparent;
 .background-3{
   background: rgb(44,22,88);
 background: linear-gradient(90deg, rgba(44,22,88,1) 21%, rgba(18,6,2,1) 50%, rgba(59,18,140,1) 78%);
+
 }
 
 .box{

@@ -16,7 +16,6 @@ import Extrasection from './sections/Extrasection'
 
 function App() {
 
-  const [show, setShow] = useState(null)
   const container = useRef()
   const {scrollYProgress} = useScroll(
     {
@@ -26,14 +25,16 @@ function App() {
   )
   
   const x = useTransform(scrollYProgress, [0, 1], [0, -400])
-
-  useEffect(()=>{
-    setTimeout(()=>{
-      setShow("loading")
-    },4000)
-  },[])
   
-  const isMobile= window.innerWidth < 786
+    const [isLoading, setIsLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+      }, 6000);
+  
+      return () => clearTimeout(timer);
+    }, []);
   const social= useRef()
 
   return (
@@ -51,9 +52,9 @@ function App() {
       </section>
 
         <section className='w-full h-screen  max-sm:w-full background-3 p-10 max-sm:p-0 overflow-hidden relative'>
-          <div className='w-1/2 h-[90%] border absolute left-11 top-9 rounded-2xl max-md:hidden'>
+          {isLoading? <div className=' w-1/2 h-[90%] border absolute left-11 top-9 text-center flex justify-center items-center rounded-2xl max-md:hidden'><h1 className='text-4xl font-bold '>loading..</h1></div> : <div className='w-1/2 h-[90%] border absolute left-11 top-9 rounded-2xl max-md:hidden'></div>}
 
-          </div>
+
         <div className='text-white max-sm:absolute max-sm:top-10  text-5xl font-bold justify-center items-center flex '>
          
           <h1 className='header max-sm:top-32 max-sm:transform-none  text-center max-sm:contents absolute top-1/3 left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-40'>Here's my CV</h1>
@@ -63,10 +64,11 @@ function App() {
           <a href='./FatimaResume.pdf' download className='textgradient text-center hover:scale-105' >Dowload CV</a>
           </div>
         </div>
-        <Canvas camera={{fov: 15, position: [0, 0, -11]}}>
+          <Canvas camera={{fov: 15, position: [0, 0, -11]}}>
           <ambientLight intensity={0.5} />
           <Meshcomponent/>
         </Canvas>
+      
         </section>
 
         <Projects/>
