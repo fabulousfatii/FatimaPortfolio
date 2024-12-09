@@ -61,7 +61,7 @@ function App() {
           <div className='shadow2 max-sm:top-24 max-sm:left-10 max-sm:w-60 absolute top-1/2 left-3/4 max-sm:transform-none transform -translate-x-1/2 -translate-y-1/2 z-40 font-semibold p-11 text-5xl w-96 rounded-lg bg-[#1b0a2e] text-slate-300'></div>
           <div className=' absolute max-sm:top-24  max-sm:left-10 max-sm:transform-none top-1/2 left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-40 font-semibold 
           p-3 text-5xl max-sm:text-4xl  w-96 max-sm:w-60 rounded-lg bg-[#1b0a2e] text-center border-2 border-stone-500 hover:scale-105 max-md:hover:scale-100  '>
-          <a href='./FatimaResume.pdf' download className='textgradient text-center hover:scale-105' >Dowload CV</a>
+          <a href='./FatimaSaleemResume.pdf' download className='textgradient text-center hover:scale-105' >Dowload CV</a>
           </div>
         </div>
           <Canvas camera={{fov: 15, position: [0, 0, -11]}}>
