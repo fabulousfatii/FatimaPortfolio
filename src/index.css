@@ -12,11 +12,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-/* 
-
-background: #0f0c29;  
-background: -webkit-linear-gradient(to right, #25103a, #491472, #12021b);  
-background: linear-gradient(to right, #25103d, #481a74, #100522);  */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -58,9 +53,7 @@ background: linear-gradient(to right, #25103d, #3f1963, #0c021b); /* W3C, IE 10+
   background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
   filter: blur(20px);
 }
- 
 
-  
 
 .textgradient{
     background: linear-gradient(to right, #ddcb29, #a5088b, #6765c9);
@@ -110,5 +103,33 @@ background: linear-gradient(90deg, rgba(44,22,88,1) 21%, rgba(18,6,2,1) 50%, rgb
 }
 .stroke{
   -webkit-text-stroke: 2px white;
+}
+/* Webkit browsers (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+/* Track (the area behind the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #530796; /* Light background for the track */
+}
+
+/* Handle (the draggable scrolling element) */
+::-webkit-scrollbar-thumb {
+  background: #7c46e9; /* Vibrant purple color */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #130331; /* Slightly darker purple on hover */
+}
+
+/* Firefox scrollbar (requires a different approach) */
+* {
+  scrollbar-width:20px;
+  scrollbar-color: #69686d #36045e;
 }
 

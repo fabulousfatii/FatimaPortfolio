@@ -1,6 +1,6 @@
 import React from 'react'
 import { useGLTF, useScroll, useTexture } from '@react-three/drei'
-import {useThree} from '@react-three/fiber'
+//import {useThree} from '@react-three/fiber'
 import * as THREE from 'three'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import gsap from 'gsap'
@@ -11,6 +11,7 @@ function Secondmesh() {
     const meshes = {}
     const tex = useTexture("/laptop5.jpg")
     tex.encoding = THREE.sRGBEncoding
+     
 
 
     model.scene.traverse((child) => {
@@ -31,35 +32,37 @@ function Secondmesh() {
     // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger)
 
-    // Setup scroll-based animation
+    //Setup scroll-based animation
     useGSAP(() => {
         gsap.to(meshes.screen.rotation, {
             x: THREE.MathUtils.degToRad(90),
-            duration: 5,
+            //duration: 10,
             // delay:1,
             scrollTrigger: {
                 trigger: ".social",
                 start: "top top",
                 end: "bottom bottom", // Changed to bottom bottom for full scroll range
-                scrub: 1.5, // Added smoothing
+                scrub: 1, // Added smoothing
                 onUpdate: (self) => {
                     // Smoothly interpolate between 180 and 90 degrees based on scroll progress
                     const progress = self.progress;
-                    meshes.screen.rotation.x = THREE.MathUtils.degToRad(180 - progress.offset * 90)
-                   // meshes.screen.rotation.x = THREE.MathUtils.degToRad(180 - (progress * 90)/15);
+                   // meshes.screen.rotation.x = THREE.MathUtils.degToRad(180 - progress* 90)
+                    meshes.screen.rotation.x = THREE.MathUtils.degToRad(180 - (progress * 90)/12);
                 }
             }
         });
     });
-    const {viewport} = useThree()
-    const responsive= viewport.width/18
-    const ismoblie= window.innerWidth<668
-    const middle = window.innerWidth<800
+   
+
+    // const {viewport} = useThree()
+    // const responsive= viewport.width/18
+    // const ismoblie= window.innerWidth<668
+    // const middle = window.innerWidth<800
 
     // scale={[ismoblie?0.4*responsive:0.9,ismoblie?0.4*responsive:0.9,ismoblie?0.4*responsive:0.9]}
     // {[middle?-2:-18,middle?-11: -14,middle?2: 30]} 
     return (
-        <group className='group' position={[middle?-2:-18,middle?-11: -14,middle?2: 30]}  scale={[ismoblie?0.4*responsive:0.9,ismoblie?0.4*responsive:0.9,ismoblie?0.4*responsive:0.9]} >
+        <group className='group' position={[-18, -13, 30]}   >
             <primitive object={model.scene} onpointmove />
         </group>
     )

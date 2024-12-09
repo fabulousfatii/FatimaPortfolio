@@ -9,7 +9,7 @@ function HoverStagger({text,className}) {
         
         setsplitTextt(splitText)
     },[text])
-    console.log(splitTextt);
+   
     
    
     

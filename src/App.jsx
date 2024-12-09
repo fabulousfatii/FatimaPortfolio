@@ -34,6 +34,7 @@ function App() {
   },[])
   
   const isMobile= window.innerWidth < 786
+  const social= useRef()
 
   return (
    
@@ -44,7 +45,10 @@ function App() {
         <Hero/>
         <Layouts/>
         <Navbar/>
+      <section>
         <About/>
+      
+      </section>
 
         <section className='w-full h-screen  max-sm:w-full background-3 p-10 max-sm:p-4 overflow-hidden relative'>
           <div className='w-1/2 h-[90%] border absolute left-11 top-9 rounded-2xl max-md:hidden'>
@@ -67,10 +71,10 @@ function App() {
 
         <Projects/>
         
-        <section className='social w-full h-screen background-3  p-10 max-md:p-3 relative flex justify-end'>
+        <section ref={social} className='social w-full h-screen background-3  p-10 max-md:p-3 relative flex justify-end'>
 
           <Canvas camera={{fov: 12, position: [-16, -8, 180]}}>
-            <Secondmesh/>
+            <Secondmesh ref={social}/>
             <Environment preset="sunset"/>
           </Canvas>
           
