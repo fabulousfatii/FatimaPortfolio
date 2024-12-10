@@ -8,7 +8,7 @@ function Projects() {
     <section className='w-full max-md:hidden background-3 p-10 py-20  relative'>
       
       <div className="container mx-auto flex flex-col justify-center">
-        <h1 className="text-white text-5xl font-bold text-center m-10">Projects</h1>
+        <h1 className="text-white text-5xl 2xl:text-7xl font-bold text-center m-10">Projects</h1>
         
          
        

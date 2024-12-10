@@ -55,13 +55,13 @@ function App() {
           {isLoading? <div className=' w-1/2 h-[90%] border absolute left-11 top-9 text-center flex justify-center items-center rounded-2xl max-md:hidden'><h1 className='text-4xl font-bold '>loading..</h1></div> : <div className='w-1/2 h-[90%] border absolute left-11 top-9 rounded-2xl max-md:hidden'></div>}
 
 
-        <div className='text-white max-sm:absolute max-sm:top-10  text-5xl font-bold justify-center items-center flex '>
+        <div className='text-white max-sm:absolute max-sm:top-10  text-5xl max-2xl:text-6xl font-bold justify-center items-center flex '>
          
           <h1 className='header max-sm:top-32 max-sm:transform-none  text-center max-sm:contents absolute top-1/3 left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-40'>Here's my CV</h1>
           <div className='shadow2 max-sm:top-24 max-sm:left-10 max-sm:w-60 absolute top-1/2 left-3/4 max-sm:transform-none transform -translate-x-1/2 -translate-y-1/2 z-40 font-semibold p-11 text-5xl w-96 rounded-lg bg-[#1b0a2e] text-slate-300'></div>
           <div className=' absolute max-sm:top-24  max-sm:left-10 max-sm:transform-none top-1/2 left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-40 font-semibold 
-          p-3 text-5xl max-sm:text-4xl  w-96 max-sm:w-60 rounded-lg bg-[#1b0a2e] text-center border-2 border-stone-500 hover:scale-105 max-md:hover:scale-100  '>
-          <a href='./FatimaSaleemResume.pdf' download className='textgradient text-center hover:scale-105' >Dowload CV</a>
+          p-3 text-5xl max-2xl:text-5xl max-sm:text-4xl  w-96 max-sm:w-60 rounded-lg bg-[#1b0a2e] text-center border-2 border-stone-500 hover:scale-105 max-md:hover:scale-100  '>
+          <a href='./FatimaSaleemResume.pdf' download className='textgradient  text-center hover:scale-105 ' >Dowload CV</a>
           </div>
         </div>
           <Canvas camera={{fov: 15, position: [0, 0, -11]}}>

@@ -37,15 +37,15 @@ export const Hero = () => {
         <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
           portfolio!
         </span>
-        <p className="mt-6 max-w-xl text-xl max-sm:text-sm text-center leading-relaxed md:text-lg md:leading-relaxed">
+        <p className="mt-6 max-w-xl text-xl max-xl:text-2xl max-sm:text-sm text-center leading-relaxed md:text-lg md:leading-relaxed">
           Hi , Welcome. I am 
         </p>
         
-        <Animatetext text={"Fatima Saleem"} className={'max-w-3xl  bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-8xl font-medium leading-tight text-transparent max-sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight '}/>
+        <Animatetext text={"Fatima Saleem"} className={'max-w-3xl  bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-8xl max-xl: font-medium leading-tight text-transparent max-sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight '}/>
         <p className="mb-1 max-w-xl font-bold text-center text-xl leading-relaxed md:text-lg md:leading-relaxed">
        
         </p>
-        <p className="mb-6 max-w-xl text-center text-xl leading-relaxed max-sm:text-sm md:text-lg md:leading-relaxed">
+        <p className="mb-6 max-w-xl text-center text-xl max-2xl:text-2xl leading-relaxed max-sm:text-sm md:text-lg md:leading-relaxed">
          your frontend developer, here to help you build your next big thing 
 
         </p>

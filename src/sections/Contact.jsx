@@ -30,7 +30,7 @@ export default function Contact() {
 
       <div className="container mx-auto max-w-4xl">
         <div className="backdrop-blur-md  rounded-2xl shadow-lg p-8 md:p-12">
-          <h2 className="text-3xl font-bold mb-6 text-center">Reach me out</h2>
+          <h2 className="text-3xl max-2xl:text-4xl font-bold mb-6 text-center">Reach me out</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <form  ref={form} onSubmit={sendEmail} className="space-y-4">
               <input
