@@ -37,7 +37,7 @@ export const Hero = () => {
         <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
           portfolio!
         </span>
-        <p className="mt-6 max-w-xl text-xl max-xl:text-2xl max-sm:text-sm text-center leading-relaxed md:text-lg md:leading-relaxed">
+        <p className="mt-6 max-w-xl text-xl 2xl:text-2xl max-sm:text-sm text-center leading-relaxed md:text-lg md:leading-relaxed">
           Hi , Welcome. I am 
         </p>
         
@@ -45,7 +45,7 @@ export const Hero = () => {
         <p className="mb-1 max-w-xl font-bold text-center text-xl leading-relaxed md:text-lg md:leading-relaxed">
        
         </p>
-        <p className="mb-6 max-w-xl text-center text-xl max-2xl:text-2xl leading-relaxed max-sm:text-sm md:text-lg md:leading-relaxed">
+        <p className="mb-6 max-w-xl text-center text-xl 2xl:text-2xl leading-relaxed max-sm:text-sm md:text-lg md:leading-relaxed">
          your frontend developer, here to help you build your next big thing 
 
         </p>

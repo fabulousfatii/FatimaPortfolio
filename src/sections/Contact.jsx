@@ -30,7 +30,7 @@ export default function Contact() {
 
       <div className="container mx-auto max-w-4xl">
         <div className="backdrop-blur-md  rounded-2xl shadow-lg p-8 md:p-12">
-          <h2 className="text-3xl max-2xl:text-4xl font-bold mb-6 text-center">Reach me out</h2>
+          <h2 className="text-3xl 2xl:text-4xl font-bold mb-6 text-center">Reach me out</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <form  ref={form} onSubmit={sendEmail} className="space-y-4">
               <input
@@ -63,13 +63,13 @@ export default function Contact() {
               </button>
             </form>
             <div className="space-y-6">
-              <p className="text-lg">Feel free to reach out through any of these channels:</p>
+              <p className="text-lg 2xl:text-xl">Feel free to reach out through any of these channels:</p>
               <div className="space-y-4">
                 <a
                   href="https://www.linkedin.com/in/fatima-saleem-7b4667222/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-3 text-blue-600 hover:text-blue-800"
+                  className="flex items-center 2xl:text-xl space-x-3 text-blue-600 hover:text-blue-800"
                 >
                   
                   <span>Connect on LinkedIn</span>
@@ -78,13 +78,13 @@ export default function Contact() {
                   href="https://wa.me/yourphonenumber"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-3 text-green-600 hover:text-green-800"
+                  className="flex items-center 2xl:text-xl space-x-3 text-green-600 hover:text-green-800"
                 >
                   +92 326 6501371
                 </a>
                 <a
                   href="mailto:fatimasaleem778899@gmail.com"
-                  className="flex items-center space-x-3 text-red-600 hover:text-red-800"
+                  className="flex items-center 2xl:text-xl space-x-3 text-red-600 hover:text-red-800"
                 >
                   
                   <span>Send an Email</span>
