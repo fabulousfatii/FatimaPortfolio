@@ -54,8 +54,9 @@ function Aboutpage() {
                       transition={{duration: 0.5, delay: 0.2}}
                       className="bg-opacity-40 bg-purple-800 p-4 rounded-lg"
                     >
-                      <h4 className="text-xl font-semibold text-white">React Developer Certification</h4>
-                      <p className="text-gray-300">Online Learning Platform, 2023</p>
+                      <h4 className="text-xl font-semibold text-white">Career Essentials in Generative AI 
+                      </h4>
+                      <p className="text-gray-300"> Microsoft and LinkedIn, 2024</p>
                     </motion.div>
                     <motion.div 
                       initial={{opacity:0, x:-50}} 
@@ -63,8 +64,17 @@ function Aboutpage() {
                       transition={{duration: 0.5, delay: 0.4}}
                       className="bg-opacity-40 bg-purple-800 p-4 rounded-lg"
                     >
-                      <h4 className="text-xl font-semibold text-white">Frontend Web Development Bootcamp</h4>
-                      <p className="text-gray-300">Tech Education Institute, 2022</p>
+                      <h4 className="text-xl font-semibold text-white">Frontend Web Development </h4>
+                      <p className="text-gray-300">Simplilearn, 2024</p>
+                    </motion.div>
+                    <motion.div 
+                      initial={{opacity:0, x:-50}} 
+                      whileInView={{opacity:1, x:0}} 
+                      transition={{duration: 0.5, delay: 0.4}}
+                      className="bg-opacity-40 bg-purple-800 p-4 rounded-lg"
+                    >
+                      <h4 className="text-xl font-semibold text-white">Essentails of C++ </h4>
+                      <p className="text-gray-300">Cisco Networking, 2024</p>
                     </motion.div>
                   </div>
                 </div>

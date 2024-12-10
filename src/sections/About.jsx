@@ -25,7 +25,9 @@ function About() {
                     <div className="bg-opacity-40 bg-purple-800  p-3 rounded">CSS3</div>
                   </div>
                   <button className="mt-6 px-6 py-2 bg-transparent border border-yellow-400 text-white rounded-md hover:bg-yellow-500 transition-colors">
-                    See More
+                  <NavLink to="/aboutme" className="">
+            See More
+          </NavLink>
                   </button>
                 </div>
               </div>
