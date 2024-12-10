@@ -1,6 +1,8 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import AnimateScroll from '../component/AnimateScroll'
+import {NavLink} from 'react-router-dom'
+
 function About() {
     return (
         <div className='w-full background-3 '>
