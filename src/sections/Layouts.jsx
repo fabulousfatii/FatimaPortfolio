@@ -12,7 +12,7 @@ function Layouts() {
         </div>
         <div className='w-full h-full mb-2 mt-4  flex'>
          <div className='w-2/3 h-full mr-2 flex flex-col p-8 justify-end items-end rounded-xl bg-[url("/pic2.png")] bg-cover bg-center'>
-         <Animatetext text={'Bringing creativity and code together!'} className={'header text-4xl 2xl:text-6xl max-md:text-2xl text-end  text-white  font-bold '}/>
+         <Animatetext text={'Bringing creativity and code together!'} className={'header text-4xl 2xl:text-5xl max-md:text-2xl text-end  text-white  font-bold '}/>
          </div>
          <div className='w-1/3 h-full ml-2  rounded-xl bg-[url("/pic1.png")] bg-cover bg-center'></div>
         </div>

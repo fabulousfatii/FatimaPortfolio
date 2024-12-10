@@ -19,7 +19,7 @@ function HoverStagger({text,className}) {
       
     { splitTextt.map((char,index)=>{
             return(
-                <motion.span key={index} className='text-8xl  max-md:text-4xl font-bold inline-block ' variants={{initial:{y:0},hovered:{islarge }}} 
+                <motion.span key={index} className='text-8xl  max-md:text-4xl font-bold inline-block ' variants={{initial:{y:0},hovered:{y:"-200%" }}} 
                 transition={{ 
                     delay: index * 0.025  ,
                     duration: 0.25,
