@@ -22,13 +22,15 @@ function Projects() {
              title={'Blog Website'}
              description={"A responsive blog website built with react js. Firbase for storage"}
              link={"https://blog-app-lyart-two.vercel.app/"}
-             image={"https://images.unsplash.com/photo-1619608135352-868e8313e121?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}/>
+             //image={"https://images.unsplash.com/photo-1619608135352-868e8313e121?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+             image={"/blog.jpg"}/>
 
              <Projectcard
              title={'E-commerce website'}
              description={"A basic e-commerce responsive website focusing on functionality"}
              link={"https://ecommerce-app-five-gilt.vercel.app/"}
-             image={"https://img.freepik.com/premium-photo/online-shop-dark-blue-with-shopping-element-3d-illustration_925613-52327.jpg"}/>
+            image={"https://img.freepik.com/premium-photo/online-shop-dark-blue-with-shopping-element-3d-illustration_925613-52327.jpg"}
+             />
            
           
 

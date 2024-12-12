@@ -89,7 +89,7 @@ function App() {
               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" className="h-20 max-sm:h-14  w-70 object-cover"/>
               <h1 className='text-center 2xl:text-2xl text-black text-xl mt-6 ml-3'>Github </h1>
             </a>
-            <a href="https://fatimasaleem778899@gmail.com" target="_blank" rel="noopener noreferrer" className=" pr-4 flex h-20 bg-rose-900 max-sm:h-14 transform -translate-x-1/2 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 border border-gray-700">
+            <a href="mailto:fatimasaleem778899@gmail.com" target="_blank" rel="noopener noreferrer" className=" pr-4 flex h-20 bg-rose-900 max-sm:h-14 transform -translate-x-1/2 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 border border-gray-700">
               <img src="https://cdn.iconscout.com/icon/free/png-256/free-gmail-logo-icon-download-in-svg-png-gif-file-formats--new-google-logos-pack-icons-2476484.png?f=webp" alt="GitHub" className="h-20 max-sm:h-14 w-70 object-cover"/>
               <h1 className='text-center text-xl 2xl:text-2xl mt-6 ml-3'> Gmail</h1>
             </a>

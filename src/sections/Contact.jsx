@@ -72,22 +72,29 @@ export default function Contact() {
                   className="flex items-center 2xl:text-xl space-x-3 text-blue-600 hover:text-blue-800"
                 >
                   
-                  <span>Connect on LinkedIn</span>
+                  <span  className='font-medium'>Connect on LinkedIn</span>
                 </a>
                 <a 
-                  href="https://wa.me/yourphonenumber"
+                  href="https://wa.me/923266501371?"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center 2xl:text-xl space-x-3 text-green-600 hover:text-green-800"
                 >
-                  +92 326 6501371
+                 <span className='font-medium'>  +92 326 6501371</span>
                 </a>
                 <a
                   href="mailto:fatimasaleem778899@gmail.com"
                   className="flex items-center 2xl:text-xl space-x-3 text-red-600 hover:text-red-800"
                 >
                   
-                  <span>Send an Email</span>
+                  <span  className='font-medium'>Send an Email</span>
+                </a>
+                <a
+                  href="https://github.com/fabulousfatii"
+                  className="flex items-center 2xl:text-xl space-x-3 hover:text-yellow-500 text-yellow-300"
+                >
+                  
+                  <span className='font-medium'>Explore Github</span>
                 </a>
               </div>
             </div>

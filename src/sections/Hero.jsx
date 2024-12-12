@@ -34,7 +34,7 @@ export const Hero = () => {
       className="relative grid min-h-screen place-content-center overflow-hidden background-3 px-4 py-24 text-gray-200"
     >
       <div className="relative z-10 flex flex-col items-center">
-        <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
+        <span  className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm transition-colors">
           portfolio!
         </span>
         <p className="mt-6 max-w-xl text-xl 2xl:text-2xl max-sm:text-sm text-center leading-relaxed md:text-lg md:leading-relaxed">
@@ -60,7 +60,7 @@ export const Hero = () => {
           whileTap={{
             scale: 0.985,
           }}
-          className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
+          className="group relative 2xl:text-2xl flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
         >
           Explore more
          

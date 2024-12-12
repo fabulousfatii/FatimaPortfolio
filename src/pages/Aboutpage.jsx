@@ -1,12 +1,18 @@
 import React from 'react'
 import AnimateScroll from '../component/AnimateScroll'
 import { motion } from 'framer-motion'
+import { NavLink } from 'react-router-dom'
 
 function Aboutpage() {
     return (
         <main>
            <div className='w-full background-3 '>
           <div className="container mx-auto px-4 py-16">
+
+          <NavLink to={"/"} className='flex items-center  '>
+         <svg className='cursor-pointer hover:scale-105' width="59px" height="69px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#fffafa" stroke="#fffafa"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#f7f7f7" d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z"></path><path fill="#f7f7f7" d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"></path></g></svg>
+         <span className='text-xl font-semibold cursor-pointer '>Back</span>
+         </NavLink>
             <div className="max-w-3xl mx-auto">
              <AnimateScroll  text={"About me"} className={` font-semibold text-6xl w-70 rounded-lg textgradient2 text-slate-300`}/>
               <div className="space-y-6  text-gray-300">
