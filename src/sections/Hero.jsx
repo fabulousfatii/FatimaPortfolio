@@ -55,7 +55,7 @@ export const Hero = () => {
               Developer
             </motion.h1>
         <p className="mb-6 max-w-xl text-center text-xl 2xl:text-2xl leading-relaxed max-sm:text-sm md:text-lg md:leading-relaxed">
-          here to help you build your next big website thing stands out!
+          here to help you build your next big thing stands out!
 
         </p>
         <motion.button
