@@ -47,3 +47,5 @@ export default HoverStagger
 
 
 //inline-block property is very important here
+// variants={{initial:{y:0},hovered:{y:"-200%" }
+// variants={{initial:{y:"100%"},hovered:{y:"-90%" }
