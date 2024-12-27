@@ -33,7 +33,7 @@ function Projectspage() {
                image={"https://img.freepik.com/premium-photo/online-shop-dark-blue-with-shopping-element-3d-illustration_925613-52327.jpg"}/>
   
               
-               <a className=' w-96 2xl:w-[420px] max-md:w-72  max-sm:w-60  h-80 2xl:h-96 z-40 rounded-xl flex flex-col justify-start p-6  border relative overflow-hidden hover:scale-105 transition-all duration-200 cursor-pointer '>
+               <a href='https://github.com/fabulousfatii/employee-managment' className=' w-96 2xl:w-[420px] max-md:w-72  max-sm:w-60  h-80 2xl:h-96 z-40 rounded-xl flex flex-col justify-start p-6  border relative overflow-hidden hover:scale-105 transition-all duration-200 cursor-pointer '>
             <img src="https://images.unsplash.com/photo-1530374260450-4bd19102f63d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className={`shadow3 top-0 left-0 absolute w-96 h-80 -z-2 object-cover bg-opacity-40  backdrop-filter backdrop-blur-xl rounded-xl flex flex-col  items-center p-  border hover:blur-sm `} ></img>
              <h1 className='text-sm z-40 text-yellow-500 mb-2 '>in finalization</h1>
              <h1 className='text-3xl z-40 font-bold '>Employee Management</h1>

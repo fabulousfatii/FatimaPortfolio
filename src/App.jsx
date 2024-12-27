@@ -17,6 +17,7 @@ import Extrasection from './sections/Extrasection'
 
 function App() {
 
+  
   const container = useRef()
   const {scrollYProgress} = useScroll(
     {
@@ -39,6 +40,10 @@ function App() {
   const social= useRef()
 
   const responsive= window.innerWidth < 900
+
+ 
+
+
 
   return (
    
