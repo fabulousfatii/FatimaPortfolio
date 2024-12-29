@@ -39,7 +39,7 @@ function App() {
     }, []);
   const social= useRef()
 
-  const responsive= window.innerWidth < 900
+  const responsive= window.innerWidth < 950
 
  
 
@@ -61,14 +61,14 @@ function App() {
       </section>
 
         <section className='w-full h-screen  max-sm:w-full background-3 p-10 max-sm:p-0 overflow-hidden relative'>
-          {isLoading? <div className=' w-1/2 h-[90%] border absolute left-11 top-9 text-center flex justify-center items-center rounded-2xl max-md:hidden'><h1 className='text-4xl font-bold '>loading..</h1></div> : <div className={`w-1/2 h-[90%] border ${responsive? "hidden": ""}  absolute left-11 top-9 rounded-2xl max-md:hidden`}></div>}
+          {isLoading? <div className=' w-1/2 h-[90%] border absolute left-11 top-9 text-center flex justify-center items-center rounded-2xl max-md:hidden'><h1 className='text-4xl font-bold '>loading..</h1></div> : <div className={`w-1/2 h-[90%] border ${responsive? "hidden": ""} max-[900px]:hidden  absolute left-11 top-9 rounded-2xl max-md:hidden`}></div>}
 
 
-        <div className={`text-white ${responsive? "absolute top-10 left-[30%]": ""}   max-md:absolute max-md:top-10 max-sm:left-10 max-md:left-[30%] text-5xl 2xl:text-6xl font-bold justify-center items-center flex `}>
+        <div className={`text-white ${responsive? "absolute top-10 left-[50%]": ""}   max-md:absolute max-md:top-10 max-sm:left-10 max-md:left-[30%] text-5xl 2xl:text-6xl font-bold justify-center items-center flex `}>
          
-          <h1 className={`header ${responsive? "absolute top-32 transform-none left-[30%] contents": ""} max-md:absolute max-md:top-32 max-md:transform-none max-md:left-[30%] max-sm:left-10 text-center max-md:contents absolute top-1/3 left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-40`}>Here's my CV</h1>
-          <div className={`shadow2 ${responsive? "top-24 left-10 transform-none text-4xl w-60": ""} max-md:top-24 max-md:left-10 max-md:w-60 absolute top-1/2 left-3/4 max-md:transform-none transform -translate-x-1/2 -translate-y-1/2 z-40 font-semibold p-11 text-5xl w-96 rounded-lg bg-[#1b0a2e] text-slate-300`}></div>
-          <div className={` absolute ${responsive? "top-24 left-10 transform-none text-4xl max-w-80 ": ""} max-md:top-24  max-md:left-10 max-md:transform-none top-1/2 left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-40 font-semibold 
+          <h1 className={`header ${responsive? "absolute top-32 left[50%] contents": ""} max-md:absolute max-md:top-32 max-md:transform-none max-md:left-[30%] max-sm:left-10 text-center max-md:contents absolute top-1/3 left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-40`}>Here's my CV</h1>
+          <div className={`shadow2 ${responsive? "top-24 left-10 transform-none text-4xl w-50": ""} max-md:top-24 max-md:left-10 max-md:w-60 absolute top-1/2 left-3/4 max-md:transform-none transform -translate-x-1/2 -translate-y-1/2 z-40 font-semibold p-11 text-5xl w-96 rounded-lg bg-[#1b0a2e] text-slate-300`}></div>
+          <div className={` absolute ${responsive? "top-24 left-10 transform-none text-3xl w-50 ": ""} max-md:top-24  max-md:left-10 max-md:transform-none top-1/2 left-3/4 transform -translate-x-1/2 -translate-y-1/2 z-40 font-semibold 
           p-3 text-5xl 2xl:text-5xl max-md:text-4xl w-96 max-md:w-60 rounded-lg bg-[#1b0a2e] text-center border-2 border-stone-500 hover:bg-black `}>
           <a href='./FatimaSaleemResume.pdf' download className='textgradient  text-center hover:scale-105 ' >Dowload CV</a>
           </div>
