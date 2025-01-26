@@ -33,7 +33,7 @@ export default function Contact() {
         <div className="backdrop-blur-md  rounded-2xl shadow-lg p-8 md:p-12">
           <h2 className="text-3xl 2xl:text-4xl font-bold mb-6 text-center">Reach me out</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <motion.form initial={{x:-500}} whileInView={{x:0}} transition={{duration:0.5 }} ref={form} onSubmit={sendEmail} className="space-y-4">
+            <form initial={{x:-500}} whileInView={{x:0}} transition={{duration:0.5 }} ref={form} onSubmit={sendEmail} className="space-y-4">
               <input
                 type="text"
                 placeholder="Your Name"
@@ -62,7 +62,7 @@ export default function Contact() {
               >
                 Send Message
               </button>
-            </motion.form>
+            </form>
             <div className="space-y-6">
               <motion.p initial={{opacity:0}} whileInView={{opacity:100}} transition={{duration:1.5, }} className="text-lg 2xl:text-xl">Feel free to reach out through any of these channels:</motion.p>
               <div className="space-y-4">
