@@ -39,7 +39,7 @@ function App() {
     }, []);
   const social= useRef()
 
-  const responsive= window.innerWidth < 950
+  const responsive= window.innerWidth < 1000
 
  
 
@@ -82,7 +82,7 @@ function App() {
 
         <Projects/>
         
-        <section ref={social} className={`social w-full h-screen background-3 ${responsive? "hidden" : " "}   p-10 max-md:p-3 relative flex justify-end`}>
+        <section ref={social} className={`social w-full h-screen background-3 ${responsive? "hidden" : " "} sm:hidden p-10 max-md:p-3 relative lg:flex justify-end`}>
 
           <Canvas camera={{fov: 12, position: [-16, -8, 180]}}>
             <Secondmesh ref={social}/>
